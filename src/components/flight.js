@@ -31,6 +31,7 @@ export default function Flight(props) {
             </div>
             <div className="infoCard">
                 <h2> {props.title} </h2>
+                <p> {props.fromTo} </p>
                 <p> {priceEdited}$ </p>
                 <div className="buttonGroup">
                     <input 
