@@ -1,0 +1,54 @@
+h2 p{
+    padding: 0px;
+    margin: 0px;
+}
+.flightCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    width: 360px;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgb(70, 70, 70);
+}
+.imageCard {
+    display: flex;
+    height: 100%;
+    width: 45%;
+}
+.imageCard img {
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+    opacity: 0.7;
+}
+.infoCard{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    padding-left: 2%;
+}
+.buttonGroup{
+    display: flex;
+    flex-direction: row;
+}
+.buttonGroup input:first-child{
+    width: 25px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(228, 228, 228);
+}
+.buttonGroup input:last-child{
+    width: 25px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(228, 228, 228);
+}
+.buttonGroup input:hover{
+    background-color: rgb(190, 190, 190);
+}
